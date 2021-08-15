@@ -1,0 +1,78 @@
+ 
+<html>
+  <head>
+    <title>Emotion To Emoji</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class="container">
+
+    <center>
+      <h2 id="btn-frozen" class="btn btn-info">ETE, Emotion to emoji<br>
+        <span>&#128513;</span>
+        <span>&#x1f620;</span>
+        <span>&#x1f61e;</span>
+        <span>&#128548</span>
+        <span>&#128545;
+        </span>
+      </h2>
+
+      <hr id="gold">
+
+      <p style="font-size: 22px;">Take your selfie to generate emoji
+      	<br>
+        <b style="color: yellow">Are you Happy?</b>
+        <br>
+        <b style="color: black">Are you Sad?</b>
+        <br>
+        <b style="color: red">Are you Angry?</b>
+        <h1>Note: Show camera at a blank wall/roof</h1>
+        <br>
+      </p>
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Snapshot - </label>
+<div id="camshot"></div>
+        <br><br>
+        <button id="button" onclick="shotsnap()" class="btn btn-success">Create your confirmed photo</button>
+        </div>
+
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <label>Predection 1</label>
+        <p class="emo-name" id="pred1"></p>
+        <p class="emoj-name" id="emo1"></p>
+
+        <label>Predection 2</label>
+        <p class="emo-name" id="pred2"></p>
+        <p class="emoj-name" id="emo2"></p>
+      </div>
+
+
+
+      <div class="col-md-4 col-sm-12 col-xs-12">
+	      <label>Confirmaphoto - </label>
+<div id="Capdiv"></div>
+        <br><br>
+        <button id="capb" onclick="capc()" class="btn btn-success">Confirmamotion</button>
+      </div>
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

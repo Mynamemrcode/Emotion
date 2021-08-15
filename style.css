@@ -1,0 +1,25 @@
+#camshot, #Capdiv {
+  border-style: ridge;
+  width: 250px;
+  height: 250px;
+}
+
+.emo-name {
+  font-size:50px;
+}
+
+.emoj-name {
+  font-size:70px;
+}
+
+label {
+  font-size:13;
+  color:goldenrod;
+  padding:6px;
+  border-radius:15px;
+  background-color: green;
+}
+
+body {
+  background: linear-gradient(225deg, #00416A 0%, #E4E5E6 100%);
+}
